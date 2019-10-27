@@ -1,0 +1,54 @@
+/* Author: Rafal Ryczek */
+/* Visual Studio Code   */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.back-image {
+    background-image: url(./img/asset1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    min-height: 100vh;
+    z-index: 1;
+}
+
+#test {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/*
+    .App {
+    text-align: center;
+    }
+
+    .App-logo {
+    height: 40vmin;
+    }
+
+    .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    }
+
+    .App-link {
+    color: #09d3ac;
+    }
+*/

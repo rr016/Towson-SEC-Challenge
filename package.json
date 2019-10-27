@@ -1,0 +1,25 @@
+{
+  "name": "project-expo",
+  "version": "1.0.0",
+  "description": "Towson Software Engineering Club UI/UX challenge to replicate a mockup as closely as possible with the cleanest possible code.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd client && npm run build && cd .. && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rr016/Towson-SEC-Challenge.git"
+  },
+  "author": "Rafal Ryczek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rr016/Towson-SEC-Challenge/issues"
+  },
+  "homepage": "https://github.com/rr016/Towson-SEC-Challenge#readme"
+}
