@@ -1,36 +1,46 @@
 /* Author: Rafal Ryczek */
 /* Visual Studio Code   */
 
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
 body {
     margin: 0px;
-    padding: 0px;
     border: 0px;
+    padding: 0px;
 }
 
-.container {
-    float: right;
+.column {
+    float: left;
+    max-width: 50%;
+}
+
+/* Images */
+#left-side {
+    display: grid;
     height: 100%;
 }
 
-.image-background {
-    background-image: url(./img/asset1.png);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-    min-height: 100vh;
-    z-index: 1;
+.image-SEC-club {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
 }
 
 .image-TU-logo {
-    max-height: 5vh;
+    max-height: 15vh;
+    vertical-align: top;
 }
 
+#right-side {
+    float: right;
+    margin-left: 30px;
+}
+
+/* Buttons Container */
 #top-buttons-container {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    text-align: center;
+    text-align: right;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
 }
 
 .btn-type1 {
@@ -40,7 +50,6 @@ body {
     padding: 10px 25px;
     border: 1px solid #f50d37;
     border-radius: 5px;
-    margin-top: 5vh;
     cursor: pointer;
 }
 
@@ -62,7 +71,9 @@ body {
     background-color: #f50d37;
     color: #ffffff;
     font-size: 20px;
-    padding: 10px 25px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    padding: 20px;
     border: none;
     border-radius: 5px;
     margin-top: 5vh;
@@ -72,4 +83,35 @@ body {
 .btn-type2:hover {
     background-color: #000000;
     color: #ffffff;
+}
+
+/* Center Text Container */
+#center-container {
+    text-align: left;
+    font-family: 'Varela Round', sans-serif;
+    color: #f50d37;
+}
+
+.center-text-bold {
+    font-weight: bold;
+    font-size: 70px; 
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+
+.center-text-weak {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px; 
+}
+
+/* Bottom Button Container */
+#bottom-button-container {
+    text-align: right;
+    margin-top: 5vh;
+    margin-right: 10vh;
 }
