@@ -2,6 +2,7 @@
 // Visual Studio Code
 
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import './Main.css';
 
 class SplashPage extends Component {
@@ -13,8 +14,8 @@ class SplashPage extends Component {
                 </div> 
                 <div id="right-side" className="column">
                     <div id="top-buttons-container">
-                        <button id="button-contact" className="btn-type1">Contact Us</button>
-                        <button id="button-events" className="btn-type1">View Events</button>
+                        <NavLink to="/contact"><button id="button-contact" className="btn-type1">Contact Us</button></NavLink>
+                        <NavLink to="/events"><button id="button-events" className="btn-type1">View Events</button></NavLink>
                     </div>
 
                     <div id="center-container">
@@ -24,7 +25,7 @@ class SplashPage extends Component {
                     </div>
 
                     <div id="bottom-button-container">
-                        <button id="button-learn" className="btn-type2">Learn More</button>
+                        <NavLink to="/learn"><button id="button-learn" className="btn-type2">Learn More</button></NavLink>
                     </div>
                 </div>
             </div>
