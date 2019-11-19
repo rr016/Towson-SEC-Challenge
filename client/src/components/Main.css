@@ -9,6 +9,10 @@ body {
     padding: 0px;
 }
 
+/* -------------------------------------------------------------------------------- */
+/* ---------------------------------- SplashPage ---------------------------------- */
+/* -------------------------------------------------------------------------------- */
+
 .column {
     float: left;
     max-width: 50%;
@@ -44,7 +48,7 @@ body {
 }
 
 .btn-type1 {
-    background-color: #ffffff;
+    background-color: white;
     color: #f50d37;
     font-size: 20px;
     padding: 10px 25px;
@@ -55,7 +59,7 @@ body {
 
 .btn-type1:hover {
     background-color: #f50d37;
-    color: #FFFFFF;
+    color: white;
 }
 
 #button-contact {
@@ -69,10 +73,9 @@ body {
 
 .btn-type2 {
     background-color: #f50d37;
-    color: #ffffff;
+    color: white;
     font-size: 20px;
     font-weight: normal;
-    letter-spacing: 3px;
     padding: 20px;
     border: none;
     border-radius: 5px;
@@ -81,8 +84,8 @@ body {
 }
 
 .btn-type2:hover {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: black;
+    color: white;
 }
 
 /* Center Text Container */
@@ -114,4 +117,70 @@ body {
     text-align: right;
     margin-top: 5vh;
     margin-right: 10vh;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------- ContactUsPage -------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+.form-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 40%;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,.85);
+    box-shadow: 0 0 3px black;
+}
+
+.form-header {
+    background-color: #f50d37;
+    color: white;
+    padding: 0px;
+}
+
+#text-contact-us {
+    margin: 0px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+#contact-form {
+    padding: 25px;
+    font-size: 20px;
+}
+
+.form-label {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: #424242;
+}
+
+#fullName, #email, #message {
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+#message {
+    height: 100px;
+    margin-bottom: 0px;
+}
+
+#btn-submit {
+    text-align: center;
+}
+
+.asterix {
+    color: red;
 }
