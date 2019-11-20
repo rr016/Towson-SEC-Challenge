@@ -38,4 +38,5 @@ class ContactUsPage extends Component {
         }
     }
 }
+
 export default ContactUsPage;
