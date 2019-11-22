@@ -230,3 +230,69 @@ hr {
     font-size: 20px;
     text-align: justify;
 }
+
+/* -------------------------------------------------------------------------------- */
+/* --------------------------------- EventsPage ----------------------------------- */
+/* -------------------------------------------------------------------------------- */
+
+.column2 {
+    float: left;
+}
+
+#left-side2 {
+    display: grid;
+}
+
+#right-side2 {
+    display: grid;
+    height: 100%;
+    width: 71%;
+}
+
+.image-SEC-club3 {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+#text-events {
+    margin: 0px;
+    padding: 30px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+}
+
+.events-list {
+    margin: 30px;
+}
+
+.events-list tbody {
+    padding: 10px;
+    display: block;
+    overflow: auto;
+    height: 70vh;
+    width: 100%;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+}
+
+.events-list tr {
+    width: 100%;
+}
+
+.events-list td {
+    padding: 20px;
+    border: 1px dashed rgb(156, 156, 156);
+    border-radius: 5px;
+}
+
+.left-cell {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.right-cell {
+    width: 80%;
+}
